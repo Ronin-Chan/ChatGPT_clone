@@ -5,7 +5,6 @@ type Props = {
   params: {
     id: string;
   }
-  
 };
 
 function ChatPage({params: {id}}:Props) {

@@ -6,7 +6,6 @@ import { useCollection } from 'react-firebase-hooks/firestore';
 import { collection, orderBy, query } from 'firebase/firestore';
 import { db } from '@/firebase';
 import Message from './Message';
-import { doc } from "firebase/firestore"
 import { ArrowDownCircleIcon } from '@heroicons/react/24/outline';
 
 type Props = {
